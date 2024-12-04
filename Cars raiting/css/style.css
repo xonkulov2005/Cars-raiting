@@ -1,0 +1,181 @@
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/poppins-v21-latin-regular.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/poppins-v21-latin-500.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/poppins-v21-latin-600.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/poppins-v21-latin-700.woff2") format("woff2");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgba(3, 218, 56, 0.148);
+}
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+section h2 {
+  color: white;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+a {
+  font-size: 25px;
+  background-color: white;
+  color: black;
+  margin-bottom: 10px;
+  padding: 3px 6px;
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: black;
+  color: white;
+}
+
+#menu {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../img/menu.jpg);
+}
+
+#mercedes-benz {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../img/mercedes-benz.jpg);
+}
+
+#tesla {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../img/tesla.jpg);
+}
+
+#toyota {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../img/toyota.jpg);
+}
+
+#porsche {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../img/porsche.jpg);
+}
+
+#bmw {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../img/bmw.jpg);
+}
+
+#volkswagen {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../img/volkswagen.jpg);
+}
+
+#honda {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../img/honda.jpg);
+}
+
+#hyundai {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../img/hyundai.jpg);
+}
+
+#ford {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../img/ford.jpg);
+}
+
+#audi {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../img/audi.jpg);
+}
+
+.main {
+  margin-left: 530px;
+  margin-right: 350px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.company-images {
+  align-items: center;
+  margin: 25px 300px;
+  border: solid;
+  border-radius: 20px;
+}
+
+.company-text {
+  font-family: "Poppins";
+  font-size: medium;
+  margin: 20px;
+  padding: 25px;
+  box-sizing: border-box;
+  border: solid;
+  border-radius: 10px;
+  /* align-items: center; */
+  background-color: #ffffff;
+  border-color: black;
+}
+
+.btn {
+  border-radius: 15px;
+  padding: 1px;
+  margin: 20px 700px;
+  align-items: center;
+  border-color: blue;
+  border-style: solid;
+  display: flex;
+  justify-content: center;
+}
